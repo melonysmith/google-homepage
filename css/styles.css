@@ -1,0 +1,160 @@
+/* google-homepage project - index.html styles */
+/* base styles */
+* {
+	font-family: Arial, sans-serif;
+    margin: 0px;
+	padding: 0px;
+}
+  
+/* nav styles */  
+nav {
+	align-content: center;
+	display: flex;
+	font-size: 13px;
+	justify-content: space-between;
+	padding: 15px 15px 0 0;
+	width: 100%;
+}
+  
+.nav-left {
+	justify-content: flex-start;
+}
+
+.nav-right {
+	padding-right: 15px;
+}
+
+ul {
+	align-items: center; 
+	display: flex;
+	list-style: none; 
+}
+li {
+	display: inline-block;
+	padding-left: 15px;
+}
+
+#appsIcon {
+	margin-top: 5px;
+	width: 25px;
+}
+
+/* sign in button styles */
+button {
+	background-color:#4885ed;
+	border: none;
+	border-radius: 2px;
+	font-size: 15px;
+	font-weight: bold;
+	height: 25px;
+	padding-bottom: 2px;
+	width: 65px;
+}
+
+button a:hover {
+	text-decoration: none;
+}
+
+/* link styles */
+a {
+	color: rgba(0, 0, 0, 0.75);
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: rgba(0, 0, 0, 0.75);
+}
+
+/* sign in button link styles */
+a.sign-in {
+	color:#fff;
+	font-weight: 300;
+}
+
+/* main styles */
+.container {
+	position: absolute;
+	text-align: center;
+	top: 12%;
+	width:100%;
+}
+
+#googleLogo {
+	width: 35%;
+}
+
+.search {
+	border: none;
+	display: block;
+	font-size: 16px;
+	height: 30px;
+	padding-top: 7px;
+	width: 530px;
+}
+					
+input[type="text"] {
+	margin: 0 auto;
+	text-align: left;
+}
+
+.search-container {
+	border: 1px solid #e4e4e4;
+	border-radius: 25px;
+	display: flex;
+	height: 45px;
+	margin: 20px auto 40px auto;
+	width: 600px;
+}
+
+#searchIcon {
+	height: 35px;
+	padding: 5px 5px 0 8px;
+}
+
+input[type="submit"] {
+	height: 45px;
+	padding-top: 10px;
+}
+
+#micIcon {
+	margin-left: -18px;
+	padding-top: 7px;
+	width: 30px;
+}
+
+#googleSearch,
+#imFeelingLucky {
+	background-color: rgba(0, 0, 0, 0.05);
+	border: none;
+	border-radius: 4px;
+	color: rgba(0, 0, 0, 0.5);
+	font-size: 15px;
+	margin: 0 5px;
+	padding: 5px 15px;
+}
+
+#googleSearch:hover, 
+#imFeelingLucky:hover {
+	border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/* footer styles */
+footer {
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+}
+
+.footer-container {
+	background-color: rgba(0, 0, 0, 0.05);
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	display: flex;
+	font-size: 13px;
+	justify-content: space-between;
+	padding: 15px 0;
+	width: 100%;
+}
